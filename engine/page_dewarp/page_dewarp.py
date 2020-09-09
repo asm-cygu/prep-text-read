@@ -446,7 +446,7 @@ def get_contours(name, small, pagemask, masktype):
 
     mask = get_mask(name, small, pagemask, masktype)
 
-    _, contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL,
+    contours, hierarchy = cv2.findContours(mask, cv2.RETR_EXTERNAL,
                                       cv2.CHAIN_APPROX_NONE)
 
     contours_out = []

@@ -1,0 +1,13 @@
+# already copied in engine/
+#alyn
+# already copied in engine/
+#page_dewarp
+
+numpy
+scipy
+scikit-image
+matplotlib
+Pillow
+
+#cv2>=3.0
+opencv-contrib-python==4.2.0.32
